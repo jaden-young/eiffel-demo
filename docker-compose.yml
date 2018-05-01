@@ -15,7 +15,7 @@ services:
 
   jira-plugin:
     restart: always
-    image: 'eiffel-community/eiffel-jira-plugin:0.0.1-SNAPSHOT'
+    image: 'jadyoung/eiffel-jira-plugin:0.0.1-SNAPSHOT'
     environment:
       rabbitmq.host: rabbit
     networks:
